@@ -1,0 +1,144 @@
+body {
+    background: #e6e2e2;
+  }
+
+  .navbar {
+    padding: 10px;
+    background-color: rgb(229, 241, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.col-lg-7 {
+    background-color: #fcfcfc;
+    margin-top: 50px;
+}
+
+.col-lg-4 {
+    background-color: #fcfcfc;
+    margin-top: 50px;
+}
+
+.col-lg-12 {
+    background-color: #fcfcfc; 
+    margin-top: 50px;
+}
+
+.col-md-12 {
+    background-color: #fcfcfc; 
+}
+
+.col-lg-6 {
+    background-color: #fcfcfc;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 94, 62);
+    text-align: left;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 94, 62);
+    text-align: center;
+}
+
+h7 {
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 94, 62);
+    text-align: center;
+}
+
+
+p {
+    font-size: 14px;
+    color: rgb(59, 56, 56);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.float-sm-start {
+    padding: 10px;
+    width: 250;
+    height: 200;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
+.rounded mx-auto d-block {
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
+tbody {
+    font-size: 12px;
+    color: rgb(59, 56, 56);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+thead {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(59, 56, 56);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 600px) {
+    h3 {
+        font-weight: normal;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        }
+    
+    p {
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+    .float-sm-start {
+        padding: 5px;
+        width: 150;
+        height: 100;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 1px;
+    }
+    .rounded   {
+        padding: 5px;
+        width: 200;
+        height: 150;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 1px;
+    }
+    .navbar {
+        padding: 5px;
+        background-color: rgb(60, 156, 92);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h6 {
+        font-weight: bold;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(53, 94, 62);
+        text-align: center;
+    }
+
+    .img-fluid {
+        padding: 5px;
+        width: 150;
+        height: 100;
+    }
+}
